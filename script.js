@@ -79,4 +79,4 @@ appVersion.innerHTML = "Navigator AppName: " + navigator.appVersion;
 userAgent.innerHTML = "Navigator AppName: " + navigator.userAgent;
 language.innerHTML = "Navigator AppName: " + navigator.language;
 onLine.innerHTML = "Navigator AppName: " + navigator.onLine;
-javaEnabled.innerHTML = "Navigator AppName: " + navigator.innerHTML;
+javaEnabled.innerHTML = "Navigator AppName: " + navigator.javaEnabled();
