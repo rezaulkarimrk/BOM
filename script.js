@@ -71,12 +71,12 @@ const javaEnabled = document.getElementById('javaEnabled');
 
 //show window.navigator object property values
 appName.innerHTML = "Navigator AppName: " + navigator.appName;
-appCodeName.innerHTML = "Navigator AppName: " + navigator.appCodeName;
-platform.innerHTML = "Navigator AppName: " + navigator.platform;
-coockieEnabled.innerHTML = "Navigator AppName: " + navigator.coockieEnabled;
-product.innerHTML = "Navigator AppName: " + navigator.product;
-appVersion.innerHTML = "Navigator AppName: " + navigator.appVersion;
-userAgent.innerHTML = "Navigator AppName: " + navigator.userAgent;
-language.innerHTML = "Navigator AppName: " + navigator.language;
-onLine.innerHTML = "Navigator AppName: " + navigator.onLine;
-javaEnabled.innerHTML = "Navigator AppName: " + navigator.javaEnabled();
+appCodeName.innerHTML = "Navigator appCodeName: " + navigator.appCodeName;
+platform.innerHTML = "Navigator platform: " + navigator.platform;
+coockieEnabled.innerHTML = "Navigator coockieEnabled: " + navigator.coockieEnabled;
+product.innerHTML = "Navigator product: " + navigator.product;
+appVersion.innerHTML = "Navigator appVersion: " + navigator.appVersion;
+userAgent.innerHTML = "Navigator userAgent: " + navigator.userAgent;
+language.innerHTML = "Navigator language: " + navigator.language;
+onLine.innerHTML = "Navigator onLine: " + navigator.onLine;
+javaEnabled.innerHTML = "Navigator javaEnabled: " + navigator.javaEnabled();
